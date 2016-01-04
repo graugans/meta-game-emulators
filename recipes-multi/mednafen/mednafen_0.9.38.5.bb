@@ -5,7 +5,7 @@ SECTION = "emulators"
 LICENSE = "GPLv2" 
 LIC_FILES_CHKSUM = "file://COPYING;md5=6e233eda45c807aa29aeaa6d94bc48a2"
 
-SRC_URI = "${SOURCEFORGE_MIRROR}/mednafen/mednafen-${PV}.tar.bz2 \
+SRC_URI = "http://mednafen.fobby.net/releases/files/mednafen-0.9.38.5.tar.bz2 \
            file://fix_configure_errors.patch \
            file://fix_sdl_flags_error.patch \
            file://fix_cast_compiler_error.patch \
