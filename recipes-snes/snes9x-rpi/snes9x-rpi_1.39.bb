@@ -2,8 +2,6 @@ SUMMARY = "Multi-platform Super Nintendo emulator (snes9x rewrite for Raspberry 
 HOMEPAGE = "https://github.com/RetroPie/snes9x-rpi" 
 SECTION = "emulators"
 
-PROVIDES += "virtual/snes9x"
-
 COMPATIBLE_MACHINE = "(raspberrypi|raspberrypi2)"
 
 LICENSE = "GPLv2" 
