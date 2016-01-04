@@ -5,7 +5,7 @@ SECTION = "libs"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING;md5=42944e670bc8ebf3eed9929739cc39db"
 
-SRC_URI = "git://gitorious.org/guichan/mainline.git;protocol=https \
+SRC_URI = "git://github.com/wheybags/guichan.git;protocol=https \
            file://configure_sdl.patch \
            file://fixes-crash-no-focushandler-set.patch"
 
