@@ -4,6 +4,8 @@ SECTION = "emulators"
 
 PROVIDES += "virtual/snes9x"
 
+COMPATIBLE_MACHINE = "(raspberrypi|raspberrypi2)"
+
 LICENSE = "GPLv2" 
 LIC_FILES_CHKSUM = "file://copyright.h;md5=3a4f359300f60eb6bc02db9db398af0a"
 
